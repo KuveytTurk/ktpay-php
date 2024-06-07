@@ -6,6 +6,8 @@
 
 This project contains integration infrastructure code developed for Kuveyt Turk Participation Bank Virtual POS services. The codes included in the project must be used to integrate and perform virtual POS transactions for online payment services provided by Kuveyt Turk Participation Bank. Any unauthorized use for different purposes will be detected by the bank, and punitive measures will be applied.
 
+If you any errors, you can contact the [Kuveyt Turk Virtual POS Support](mailto:sanalposdestek@kuveytturk.com.tr) team.
+
 [Türkçe](https://github.com/kuveytturk/ktpay-php/blob/main/README.md)
 
 ## Requirements
@@ -113,7 +115,7 @@ $paymentRequest->setHashData($envConfig['password']);
   "Result": {
     "OrderId": 203418187,
     "MerchantOrderId": "KTPay-PHP-1577368010",
-	"MD": "OGoIEuSrswsJg3QnyNfpuClWcw0ji2SjbuVu+UptHnQy8wz6GERZrhtvaE6I3+F1"
+    "MD": "OGoIEuSrswsJg3QnyNfpuClWcw0ji2SjbuVu+UptHnQy8wz6GERZrhtvaE6I3+F1"
   },
   "Success": true,
   "ResponseCode": "00",
@@ -200,7 +202,7 @@ $paymentRequest->setHashData($envConfig['password']);
   "Result": {
     "OrderId": 203418187,
     "MerchantOrderId": "KTPay-PHP-1577368010",
-	"MD": "OGoIEuSrswsJg3QnyNfpuClWcw0ji2SjbuVu+UptHnQy8wz6GERZrhtvaE6I3+F1"
+    "MD": "OGoIEuSrswsJg3QnyNfpuClWcw0ji2SjbuVu+UptHnQy8wz6GERZrhtvaE6I3+F1"
   },
   "Success": true,
   "ResponseCode": "00",
