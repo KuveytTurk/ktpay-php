@@ -6,6 +6,8 @@
 
 Bu proje, Kuveyt Türk Katılım Bankası Sanal POS servisleri için geliştirilen entegrasyon alt yapı kodlarını içermektedir. Proje içerisinde yer alan kodlar, Kuveyt Türk Katılım Bankası tarafından sunulan çevrimiçi ödeme hizmetlerini entegre etmek ve sanal pos işlemlerini gerçekleştirmek amacıyla kullanılabilir. Aksi kullanımlar banka tarafından tespit edilip cezai yaptırımlar uygulanmaktadır.
 
+Entegrasyon sırasında karşılaşılan hataların çözümü için [Kuveyt Türk Sanal POS Destek](mailto:sanalposdestek@kuveytturk.com.tr) ekibi ile iletişime geçebilirsiniz.
+
 [English](https://github.com/kuveytturk/ktpay-php/blob/main/README-EN.md)
 
 ## Gereksinimler
@@ -113,7 +115,7 @@ $paymentRequest->setHashData($envConfig['password']);
   "Result": {
     "OrderId": 203418187,
     "MerchantOrderId": "KTPay-PHP-1577368010",
-	"MD": "OGoIEuSrswsJg3QnyNfpuClWcw0ji2SjbuVu+UptHnQy8wz6GERZrhtvaE6I3+F1"
+    "MD": "OGoIEuSrswsJg3QnyNfpuClWcw0ji2SjbuVu+UptHnQy8wz6GERZrhtvaE6I3+F1"
   },
   "Success": true,
   "ResponseCode": "00",
@@ -200,7 +202,7 @@ $paymentRequest->setHashData($envConfig['password']);
   "Result": {
     "OrderId": 203418187,
     "MerchantOrderId": "KTPay-PHP-1577368010",
-	"MD": "OGoIEuSrswsJg3QnyNfpuClWcw0ji2SjbuVu+UptHnQy8wz6GERZrhtvaE6I3+F1"
+    "MD": "OGoIEuSrswsJg3QnyNfpuClWcw0ji2SjbuVu+UptHnQy8wz6GERZrhtvaE6I3+F1"
   },
   "Success": true,
   "ResponseCode": "00",
